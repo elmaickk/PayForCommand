@@ -76,13 +76,13 @@ public class EventListener implements Listener {
 								JSONMessage jsonMsgSpace1 = new JSONMessage("           ");
 								
 								JSONMessage jsonMsgYes = new JSONMessage(Options.msg.get("msg.4"));
-								jsonMsgYes.setRunCommand("/PayForCommand yes");
+								jsonMsgYes.setRunCommand("/payforcommand yes");
 								jsonMsgYes.setHoverText(Options.msg.get("msg.4"));
 								
 								JSONMessage jsonMsgSpace2 = new JSONMessage("                      ");
 								
 								JSONMessage jsonMsgNo = new JSONMessage(Options.msg.get("msg.5"));
-								jsonMsgNo.setRunCommand("/PayForCommand no");
+								jsonMsgNo.setRunCommand("/payforcommand no");
 								jsonMsgNo.setHoverText(Options.msg.get("msg.5"));
 								
 								jsonMessages.add(jsonMsgSpace1);
